@@ -1,0 +1,12 @@
+specVersion: "v1beta"
+serviceId: "1-sem-Eksamen-main"
+location: "us-central1"
+schema:
+  source: "./schema"
+  datasource:
+    postgresql:
+      database: "fdcdb"
+      cloudSql:
+        instanceId: "1-sem-Eksamen-main-fdc"
+      # schemaValidation: "COMPATIBLE"
+connectorDirs: ["./connector"]
